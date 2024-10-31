@@ -19,30 +19,28 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-.chat-container {
-    width: 300px;
-    border: 1px solid #ccc;
+.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin: 5px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
     border-radius: 5px;
-    overflow: hidden;
+    cursor: pointer;
 }
 
-.chat-output {
-    height: 200px;
-    border-bottom: 1px solid #ccc;
-    padding: 10px;
-    overflow-y: auto;
+.btn:hover {
+    background-color: #45a049;
 }
 
-input[type="text"] {
-    width: calc(100% - 90px);
-    padding: 10px;
-}
-
-button {
-    padding: 10px;
-}
 footer {
     background-color: #333;
     color: white;

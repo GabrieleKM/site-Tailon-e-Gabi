@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inteligência Artificial Simples</title>
+    <title>Quiz sobre Inteligência Artificial</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Chat com IA</h1>
+        <h1>Quiz sobre Inteligência Artificial</h1>
     </header>
 
     <main>
-        <div class="chat-container">
-            <div id="chat-output" class="chat-output"></div>
-            <input type="text" id="user-input" placeholder="Digite sua mensagem...">
-            <button id="send-button">Enviar</button>
+        <div id="quiz-container">
+            <div id="question-container">
+                <h2 id="question"></h2>
+                <div id="answer-buttons" class="btn-container"></div>
+            </div>
+            <button id="next-button" class="btn" style="display: none;">Próxima Pergunta</button>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2>Você acertou <span id="score"></span> de <span id="total-questions"></span> perguntas!</h2>
+            <button id="restart-button" class="btn">Reiniciar Quiz</button>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Sua Empresa</p>
+        <p>&copy; 2024 Quiz de IA</p>
     </footer>
 
     <script src="script.js"></script>
