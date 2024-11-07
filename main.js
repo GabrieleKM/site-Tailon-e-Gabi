@@ -19,30 +19,30 @@ document.addEventListener("DOMContentLoaded", function() {
             ]
         },
         {
-            question: "Quem é conhecido como o pai da IA?",
+            question: "Qual o menor país do mundo?",
             answers: [
-                { text: "Albert Einstein", correct: false },
-                { text: "Alan Turing", correct: true },
-                { text: "Isaac Newton", correct: false },
-                { text: "Charles Babbage", correct: false }
+                { text: "Rússia", correct: false },
+                { text: "Vaticano", correct: true },
+                { text: "Japão", correct: false },
+                { text: "Maldivas", correct: false }
             ]
         },
         {
-            question: "Qual linguagem de programação é popular em IA?",
+            question: "Quantos páises existem no mundo hoje?",
             answers: [
-                { text: "HTML", correct: false },
-                { text: "Python", correct: true },
-                { text: "CSS", correct: false },
-                { text: "JavaScript", correct: false }
+                { text: "198", correct: false },
+                { text: "195", correct: true },
+                { text: "207", correct: false },
+                { text: "98", correct: false }
             ]
         },
         {
-            question: "O que é aprendizado de máquina?",
+            question: "Qual a maior montanha do mundo?",
             answers: [
-                { text: "Máquinas que aprendem com dados", correct: true },
-                { text: "Máquinas que precisam de manutenção", correct: false },
-                { text: "Um tipo de programação", correct: false },
-                { text: "Um jogo de vídeo", correct: false }
+                { text: "Monte Everest", correct: true },
+                { text: "Monte Fuji", correct: false },
+                { text: "pão de açúcar", correct: false },
+                { text: "pico da neblina", correct: false }
             ]
         }
     ];

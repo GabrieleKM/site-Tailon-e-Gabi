@@ -47,3 +47,12 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+img {
+    max-width: 30%;
+    height: auto;
+    border: 0px solid #ddd;
+    border-radius: 35px;
+    margin-bottom: 28px;
+    transition: transform 0.3s ease;
+}
